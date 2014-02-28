@@ -14,7 +14,3 @@ RUN apt-get -y upgrade
 
 # Install tools
 RUN apt-get -y install vim curl git build-essential make gcc wget
-
-# Install supervisor
-RUN apt-get -y install supervisor
-RUN mkdir -p /var/log/supervisor
