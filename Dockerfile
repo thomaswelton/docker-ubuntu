@@ -13,4 +13,4 @@ RUN apt-get update
 RUN apt-get -y upgrade
 
 # Install tools
-RUN apt-get -y DEBIAN_FRONTEND=noninteractive install vim curl git build-essential make gcc wget
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install vim curl git build-essential make gcc wget
